@@ -1,0 +1,82 @@
+/* ========== НАВИГАЦИЯНЫ ОРТАЛАУ (TOP NAVIGATION) ========== */
+
+#main-navbar {
+  background-color: blue;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+#navbar-container {
+  float: left;
+  width: 100%;
+  position: relative;
+  left: 50%;
+}
+
+#navbar-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  right: 50%;
+  float: left;
+}
+
+#navbar-container ul li {
+  float: left;
+  display: block;
+}
+
+#navbar-container ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #000;
+}
+
+/* Ағымдағы бет үшін стиль (Page 1) */
+#onpage a {
+  text-decoration: underline overline;
+}
+
+/* ========== БҰЙЫР НАВИГАЦИЯСЫ (SIDE NAVIGATION - RIGHT SIDE) ========== */
+
+#sidebar {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: red;
+  height: 100%;
+  width: 20%;
+}
+
+#sidebar-container {
+  height: 100%;
+  width: 100%;
+}
+
+#sidebar-container ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+#sidebar-container ul li {
+  display: block;
+}
+
+#sidebar-container ul li a {
+  display: block;
+  padding: 15px 0;
+  color: #fff;
+  text-decoration: none;
+  background-color: #000;
+}
+
+/* Барлық сілтемелерге underline/overline жоқ, тек #onpage үшін ғана */
+#sidebar-container ul li a {
+  text-decoration: none;
+}
